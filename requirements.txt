@@ -1,0 +1,21 @@
+nltk 
+huggingface 
+openai 
+langchain 
+llama-index 
+langchain-core 
+langchain-community 
+ollama 
+matplotlib 
+spacy 
+fastapi 
+uvicorn 
+aiohttp 
+asyncio 
+httpx 
+transformers 
+pypdf 
+torch
+motor
+scikit-learn
+# sentence-transformers
