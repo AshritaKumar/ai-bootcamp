@@ -9,6 +9,7 @@ nltk.download("stopwords")
 nltk.download("wordnet")
 nltk.download("omw-1.4")
 nltk.download("movie_reviews")
+nltk.download('punkt_tab')
 
 # Example text
 text = "NLTK is a great library for Natural Language Processing! It helps in tokenization, removing stopwords, and more."

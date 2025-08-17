@@ -6,11 +6,13 @@ from sklearn.metrics import accuracy_score
 # Load dataset
 digits = load_digits()
 X_train, X_test, y_train, y_test = train_test_split(
-    digits.data, digits.target, test_size=0.2, random_state=0
+    digits.data, digits.target, test_size=0.2, 
+    random_state=0
 )
 
 # Train simple neural network
-mlp = MLPClassifier(hidden_layer_sizes=(50,), max_iter=300, random_state=0)
+mlp = MLPClassifier(hidden_layer_sizes=(50,), 
+                    max_iter=300, random_state=0)
 mlp.fit(X_train, y_train)
 
 # Evaluate
